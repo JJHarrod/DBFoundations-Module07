@@ -32,7 +32,7 @@ Function dbo.fProductInventoriesWithPreviousMonthCountsWithKPIs(@KPI Int)
 		);
 go
 ```  
-<sub>*Example02 Results of UDF Code*<sub>
-(./images/image01.png)
+<sub>*Example02 Results of UDF Code*<sub>  
+![This is an image](./images/image01.png)
 ## Summary
 In this paper we explained when you would use a SQL UDF, the differences and similarities between Scalar, Inline, and Multi-Statement Functions.
