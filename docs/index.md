@@ -1,9 +1,18 @@
-# Title
-**Dev:** *JHarrod*
-**Date:** *5.31.2022*
+**Name:** Jeremy Harrod
+**Date:** 05/30/2020
+**Course:** IT FDN 130
+**GitHub:** https://github.com/JJHarrod/DBFoundations-Module07
 
-## Handling Error for Order By in View
-Identifying the most common error message when using Order By clause in a Select statement while creating a View. 
+ 
+# Assignment 07 – Functions
+ 
+## Introduction
+This paper will be explaining when you would use a SQL UDF, the differences and similarities between Scalar, Inline, and Multi-Statement Functions.
 
-### Adding Top “” to the Select Statement
-Most times when an error message is received while creating a View with a Group By clause it will because you need to add keyword “Top” to the Select statement. Adding Top keyword and a number value will allow you View to Execute without an error message.
+### Topic- When you would use a SQL UDF
+These are often called User Defined Functions or just UDFs. Use UDF’s to create custom functions. There are two basic types of functions; functions that return a table of values and functions that return a single value.
+### Topic- The Differences and Similarities between a Scalar, Inline, and Multi-Statement Functions
+The similarities between Scalar, Inline, and Multi-Statement Functions are all functions that use parameters to return data. The differences are that a Scalar function accepts any number of parameters and returns one value. Inline functions states RETURNS TABLE and return table’s definition will be based on the function’s SELECT statement. No need to specify the structure of the return table. Multi-Statement Functions RETURNS syntax explicitly specifies the structure of the return table. This is done by declaring a TABLE variable that will be used to store and accumulate the rows that are returned as the value of the function. 
+
+## Summary
+In this paper we explained when you would use a SQL UDF, the differences and similarities between Scalar, Inline, and Multi-Statement Functions.
