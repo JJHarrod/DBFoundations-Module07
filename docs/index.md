@@ -14,7 +14,7 @@ These are often called User Defined Functions or just UDFs. Use UDF’s to creat
 ### Topic- The Differences and Similarities between a Scalar, Inline, and Multi-Statement Functions
 The similarities between Scalar, Inline, and Multi-Statement Functions are all functions that use parameters to return data. The differences are that a Scalar function accepts any number of parameters and returns one value. Inline functions states RETURNS TABLE and return table’s definition will be based on the function’s SELECT statement. No need to specify the structure of the return table. Multi-Statement Functions RETURNS syntax explicitly specifies the structure of the return table. This is done by declaring a TABLE variable that will be used to store and accumulate the rows that are returned as the value of the function.  
 
-#### Example UDF Code
+<sub>Example UDF Code<sub>
 ```
 Create --Drop
 Function dbo.fProductInventoriesWithPreviousMonthCountsWithKPIs(@KPI Int)
