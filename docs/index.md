@@ -1,6 +1,6 @@
-**Name:** Jeremy Harrod
-**Date:** 05/30/2020
-**Course:** IT FDN 130
+**Name:** Jeremy Harrod  
+**Date:** 05/30/2020  
+**Course:** IT FDN 130  
 **GitHub:** https://github.com/JJHarrod/DBFoundations-Module07
 
  
