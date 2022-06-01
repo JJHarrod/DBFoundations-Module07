@@ -33,6 +33,6 @@ Function dbo.fProductInventoriesWithPreviousMonthCountsWithKPIs(@KPI Int)
 go
 ```  
 <sub>*Example02 Results of UDF Code*<sub>  
-![This is an image](https://github.com/JJHarrod/DBFoundations-Module07/blob/main/docs/images/Image01.PNG)
+![This is an image](https://github.com/JJHarrod/DBFoundations-Module07/blob/main/docs/images/Image02.PNG)
 ## Summary
 In this paper we explained when you would use a SQL UDF, the differences and similarities between Scalar, Inline, and Multi-Statement Functions.
